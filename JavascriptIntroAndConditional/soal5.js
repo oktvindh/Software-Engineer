@@ -1,0 +1,11 @@
+let sentences = "wah javascript itu keren sekali";
+let firstWords = sentences.substring(0, 3);
+let secondWords = sentences.substring(4, 14);
+let thirdWords = sentences.substring(15, 18);
+let fourWords = sentences.substring(19, 24);
+let fiveWords = sentences.substring(25, 31);
+console.log("Kata Pertama: " + firstWords);
+console.log("Kata Kedua: " + secondWords);
+console.log("Kata Ketiga: " + thirdWords);
+console.log("Kata Keempat: " + fourWords);
+console.log("Kata Kelima: " + fiveWords);
